@@ -39,3 +39,10 @@ const value = [22,32,54545,656,66]
 const newvalue = 100
 console.log(newArray(value,newvalue))
 
+   const a = [ 1,2,3,4]
+    const b = a.find(v => v === 4 ) // return output as in object 4
+    const c = a.filter(v => v === 4 ) // return  object as in array [4]
+    const d = a.reduce((v,v1) =>v+v1 ) // return output as in object 10
+    console.log ("find" , b ) // 4
+    console.log ("filter", c) // [4]
+    console.log ("reduce" , d) // 10
