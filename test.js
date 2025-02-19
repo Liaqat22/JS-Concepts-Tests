@@ -17,7 +17,7 @@ const Wordcounter = (str) =>{
   console.log(words)
   return words.length
 }
-const string = "hi i am liaqat ali"
+const string = "hi my name is liaqat ali"
 console.log(Wordcounter(string)) //5
 
 //Removing duplicates 
